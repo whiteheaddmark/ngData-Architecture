@@ -11,4 +11,4 @@ This repository contains the design iterations for the ngData architecture.
 * R02: "Algorithm Architecture", Bhatnagar et al., Overleaf, 2022
 * R03: "Design Patterns: ...", Gamma et al. 1995
 * R04: "SOLID Principles of Object-Oriented Programming", [Wikipedia](https://en.wikipedia.org/wiki/SOLID)
-* R05: "Head First Design Patters", Freeman et al., 2nd edition
+* R05: "Head First Design Patterns", Freeman et al., 2nd edition
