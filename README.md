@@ -2,7 +2,7 @@
 This repository contains the design iterations for the ngData architecture.
 
 # Iterations Summary
-* Iteration 0 - Initial partitioning into a layered architecture based on previous ARDG work and application of Template Method Pattern and Dependency Inversion Principle.
+* [Iteration 0](https://github.com/whiteheaddmark/ngData-Architecture/blob/master/iterations/Iteration0.md) - Initial partitioning into a layered architecture based on previous ARDG work and application of Template Method Pattern and Dependency Inversion Principle.
 * Iteration 1 - TBD
 
 # References
