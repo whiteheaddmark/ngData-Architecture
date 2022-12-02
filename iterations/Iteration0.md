@@ -87,8 +87,9 @@ This model...:
 * supports combining dependency inversion with other principles like dependency injection and inversion control to support the derived system requirements, if needed.
 
 Potential problems include:
+* the Template Method concepts may not map perfectly to solver framework and CASA API concepts - more work is needed here - but the general idea is the kind of approach that address the derived system requirements
 * proliferation of primitive operations that need overriding could become tedious and difficult to maintain
 * large set of solver specializations could be difficult to maintain
 * could be difficult to create an infrastructure interface that suits Dask, Workspaces, TBD...
-* ...
+* it may be desirable to use a functional programming paradigm instead of an OO-based paradigm
 
