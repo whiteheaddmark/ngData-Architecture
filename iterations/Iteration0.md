@@ -31,7 +31,7 @@ nodes and a more tightly coupled cluster of computers with shared resources.
 
 # Views
 ## Layered Architecture
-This isn't a new idea. ARDG has already been using this idea.
+This isn't a new idea. ARDG has already been using it.
 <p align="center">
   <img src="https://github.com/whiteheaddmark/ngData-Architecture/blob/master/images/ARDGLayers.png?raw=true" width="800" height="800">
 </p>
@@ -68,7 +68,7 @@ This translates into the following code snippet:
 
 <div align="center">Figure 5 Template Method code snippet.</div>
 </br>
-The idea is to translate the general structure of the solver framework into a template method where the framework components comprise the steps in the framework algorithm. The CASA API would provide a set of stateless functions representing primitive operations.
+The key idea is to translate the general structure of the solver framework into a template method where the framework components comprise the steps in the framework algorithm. The CASA API would provide a set of stateless functions representing primitive operations.
 <p align="center">
   <img src="https://github.com/whiteheaddmark/ngData-Architecture/blob/master/images/Solver-Specialization.png?raw=true">
 </p>
@@ -80,5 +80,9 @@ There would be a finite (and hopefully small) set of solver specializations to c
 Each solver would be encoded with parallelization requirements which could be compared to actual resource availability provided by the infrastructure layer.
 
 # Analysis
-
+This model:
+* resolves the executive control problem via the Application Layer
+* avoids concrete coupling between layers
+* supports open-ended support for algorithms based on the general solver framework
+* ...?
 
