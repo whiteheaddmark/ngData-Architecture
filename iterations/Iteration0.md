@@ -80,9 +80,15 @@ There would be a finite (and hopefully small) set of solver specializations to c
 Each solver would be encoded with parallelization requirements which could be compared to actual resource availability provided by the infrastructure layer.
 
 # Analysis
-This model:
-* resolves the executive control problem via the Application Layer
-* avoids concrete coupling between layers
-* supports open-ended support for algorithms based on the general solver framework
-* ...?
+This model...:
+* resolves the executive control problem via the Application Layer.
+* avoids concrete coupling between layers.
+* provides open-ended support for algorithms based on the general solver framework.
+* supports combining dependency inversion with other principles like dependency injection and inversion control to support the derived system requirements, if needed.
+
+Potential problems include:
+* proliferation of primitive operations that need overriding could become tedious and difficult to maintain
+* large set of solver specializations could be difficult to maintain
+* could be difficult to create an infrastructure interface that suits Dask, Workspaces, TBD...
+* ...
 
