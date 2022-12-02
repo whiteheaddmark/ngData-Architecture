@@ -31,15 +31,53 @@ nodes and a more tightly coupled cluster of computers with shared resources.
 
 # Views
 ## Layered Architecture
-
+This isn't a new idea. ARDG has already been using this idea.
 <p align="center">
-  <img src="https://github.com/whiteheaddmark/ngData-Architecture/blob/master/images/ARDGLayers.png?raw=true">
+  <img src="https://github.com/whiteheaddmark/ngData-Architecture/blob/master/images/ARDGLayers.png?raw=true" width="800" height="800">
 </p>
 
-<div align="center">Figure 1 Generic REST services backed by a database, a file system, or a non-NRAO resource.</div>
+<div align="center">Figure 1 ARDG layered architecture view.</div>
+</br>
+In the context of ngData, we propose the following layers:
+<p align="center">
+  <img src="https://github.com/whiteheaddmark/ngData-Architecture/blob/master/images/ngData-Layers.png?raw=true">
+</p>
+
+<div align="center">Figure 2 ngData layers view.</div>
+</br>
+Applying the Dependency Inversion Principle yields:
+<p align="center">
+  <img src="https://github.com/whiteheaddmark/ngData-Architecture/blob/master/images/ngData-Layers-with-DIP.png?raw=true">
+</p>
+
+<div align="center">Figure 3 ngData layers with dependency inversion view.</div>
 </br>
 
 ## Template Method Pattern
+Here is the general idea behind the Template Method design pattern:
+<p align="center">
+  <img src="https://github.com/whiteheaddmark/ngData-Architecture/blob/master/images/Template-Method-Structure.png?raw=true">
+</p>
+
+<div align="center">Figure 4 Template Method structure view.</div>
+</br>
+This translates into the following code snippet:
+<p align="center">
+  <img src="https://github.com/whiteheaddmark/ngData-Architecture/blob/master/images/Template-Method-Code-Snippet.png?raw=true">
+</p>
+
+<div align="center">Figure 5 Template Method code snippet.</div>
+</br>
+The idea is to translate the general structure of the solver framework into a template method where the framework components comprise the steps in the framework algorithm. The CASA API would provide a set of stateless functions representing primitive operations.
+<p align="center">
+  <img src="https://github.com/whiteheaddmark/ngData-Architecture/blob/master/images/Solver-Specialization.png?raw=true">
+</p>
+
+<div align="center">Figure 6 Solver specialization view.</div>
+</br>
+There would be a finite (and hopefully small) set of solver specializations to cover scientific use cases. 
+
+Each solver would be encoded with parallelization requirements which could be compared to actual resource availability provided by the infrastructure layer.
 
 # Analysis
 
