@@ -21,6 +21,7 @@ The layered architecture suggested in Iteration 0 is a technically partitioned a
 </br>
 
 # Views
+This sketch is intended to show how the template method idea could be used to define the steps in the Generic Solver while supporting a variety of Solver Specializations and indicate where the CASA API and Infrastructure layer dependencies would fit in.
 
 <p align="center">
   <img src="https://github.com/whiteheaddmark/ngData-Architecture/blob/master/images/Hypothetical-Code.png?raw=true">
@@ -30,5 +31,5 @@ The layered architecture suggested in Iteration 0 is a technically partitioned a
 </br>
 
 # Analysis
-
+TBD
 
