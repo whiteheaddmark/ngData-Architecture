@@ -3,7 +3,7 @@ This repository contains the design iterations for the ngData architecture.
 
 # Iterations Summary
 * [Iteration 0](https://github.com/whiteheaddmark/ngData-Architecture/blob/master/iterations/Iteration0.md) - Initial partitioning into a layered architecture based on previous ARDG work and application of Template Method Pattern and Dependency Inversion Principle.
-* [Iteration 1](https://github.com/whiteheaddmark/ngData-Architecture/blob/master/iterations/Iteration1.md) - Refined ideas presented in Iteration 1 by establishing the Conceptual Domain Model and providing more detail related to the template method idea.
+* [Iteration 1](https://github.com/whiteheaddmark/ngData-Architecture/blob/master/iterations/Iteration1.md) - Refined ideas presented in Iteration 1 by establishing the conceptual domain model and providing more detail related to the template method idea.
 
 # References
 * R00: "Imaging: Algorithm, Architecture, Code, ...", S. Bhatnagar, CHTC_ARDG_Bhatnagar.pdf, 2019
