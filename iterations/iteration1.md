@@ -22,6 +22,13 @@ The layered architecture suggested in Iteration 0 is a technically partitioned a
 
 # Views
 
+<p align="center">
+  <img src="https://github.com/whiteheaddmark/ngData-Architecture/blob/master/images/Hypothetical-Code.png?raw=true">
+</p>
+
+<div align="center">Figure 2 Generic Solver base class example.</div>
+</br>
+
 # Analysis
 
 
