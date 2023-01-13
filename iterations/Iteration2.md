@@ -1,17 +1,19 @@
 # Iteration 2
-A process view illustrates the process decomposition of the system, including the mapping of classes and subsystems on to processes and threads (**R06**). 
+Architects use three views to explain software systems. These views describe the system's structure, behavior, and deployment. The Algorithm Architecture document offers an initial description of the structure of the data processing components. Details regarding the relationships between the components and their behavior needs to be refined.
+
+This iteration attempts to summarize what is currently known about how the phase 1 algorithm prototyping in terms of a behavior and deployment views. These views together provide a high level process view which illustrates the process decomposition of the system, including the mapping of classes or subsystems on to processes and threads (**R06**). 
 
 # Drivers
-TBD
+* See Iteration 0.
 
 # Design Concepts
-TBD
+* See Iteration 0.
 
 # Architecture Elements
-TBD 
+* See Iteration 0. 
 
 # Conceptual Domain Model
-TBD
+N/A
 
 # Views
 TBD
